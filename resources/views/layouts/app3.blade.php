@@ -34,8 +34,19 @@
    <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+      @media only screen and (max-width: 600px) {
       #map {
         height: 100%;
+        
+        margin: auto;
+       }
+      }
+      @media only screen and (min-width: 600px) {
+       #map {
+        height: 75%;
+        width: 75%;
+        margin: auto;
+      }
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
