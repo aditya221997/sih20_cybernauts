@@ -43,11 +43,18 @@ if(text=="yes")
   
 </script>
 
-<button style="padding: 10PX"; onclick="promptfun()"><B>START TRIP</B></button>
+<div style="display: flex;
+  justify-content: center;">
+<button style="padding: 10PX; width: 15em; height: 6em; margin: 10%;"; onclick="promptfun()"><B>START TRIP</B></button>
 </BR></BR>
-<button style="padding: 10PX"; onclick="promptfunclear()"><B>END TRIP</B></button>
+<button style="padding: 10PX; width: 15em;height: 6em; margin: 10%;"; onclick="promptfunclear()"><B>END TRIP</B></button>
+
+</div>
 </BR></BR>
- <button style="padding: 10PX"><a href="/sms/send">SOS</a></button>
+<div style=" display: flex;
+  justify-content: center;">
+ <button style="padding: 10PX; width: 15em ;height: 8em;background-color: red;margin: auto"><a href="/sms/send" style="color: black;">SOS</a></button>
+</div>
  
 @endsection
 
