@@ -10,6 +10,17 @@
                    
                 </div>
 <h1> YOU ARE LOGGED IN!!</h1>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+      navigator.getBattery().then(function(battery){
+        var level = battery.level;
+        if(level<0.76)
+      { alert("Low Battery"); }
+
+      });
+    });
+  </script>
 <script>
  
 var c=0;
@@ -96,7 +107,7 @@ if(text=="yes")
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjP21ndaZmWQELvNZH7Nud6TOIQQwvaYs&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3KWKcywoA4VZ8MQ1IGBhHE4A_k6cZKWc&callback=initMap">
     </script>
 
 @endsection
