@@ -10,26 +10,29 @@
                    
                 </div>
 <h1> YOU ARE LOGGED IN!!</h1>
-
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function(){
       navigator.getBattery().then(function(battery){
         var level = battery.level;
         if(level<0.76)
-      { alert("Low Battery!! Please Charge Your Phone!!"); }
+      { alert("Low Battery"); }
 
       });
     });
   </script>
 <script>
- 
+ var interval;
+ interval=prompt("Do you want to set interval of recieving notifications (in minute)")
 var c=0;
 function promptfun(){
 //static int
+<?php $z=Auth::user()->pin;  ?>
+ var res="<?php echo $z; ?>";
 
 var text= prompt("Are you safe");
-if(text=="yes")
-  myvar= setTimeout(promptfun,5000); 
+if(text==res)
+
+  myvar= setTimeout(promptfun,interval*60*1000); 
  else
    { 
      if(c>1)

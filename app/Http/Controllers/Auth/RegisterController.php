@@ -53,6 +53,8 @@ class RegisterController extends Controller
             'password' => 'required|string|min:6|confirmed',
              'aadhar' => 'required|numeric|min:100000000000|unique:users',
              'phone' => 'required|numeric|min:910000000000|max:919999999999',
+            'pin' => 'required|numeric|min:1|max:919999999999',
+
 
         ]);
     }
@@ -70,6 +72,8 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'aadhar' => $data['aadhar'],
             'phone' => $data['phone'],
+            'pin' => $data['pin'],
+
 
 
             'password' => bcrypt($data['password']),

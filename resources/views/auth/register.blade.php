@@ -93,6 +93,21 @@
                         </div>
 
 
+   <div class="form-group{{ $errors->has('pin') ? ' has-error' : '' }}">
+                            <label for="pin" class="col-md-4 control-label">Enter PIN</label>
+
+                            <div class="col-md-6">
+                                <input id="pin" type="text" class="form-control" name="pin" value="{{ old('pin') }}" required autofocus>
+
+                                @if ($errors->has('pin'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('pin') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
