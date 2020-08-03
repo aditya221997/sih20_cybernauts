@@ -1,4 +1,4 @@
-@extends('layoutsapp3')
+@extends('layouts.app3')
 
 @section('content') <div class="panel-body">
                     @if (session('status'))
