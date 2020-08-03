@@ -17,7 +17,7 @@
 
 Route::get('/', function () {
     return view('w2');
-});
+};
 
 Auth::routes();
 
