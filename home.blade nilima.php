@@ -23,7 +23,7 @@
   </script>
 <script>
  
-var c=0;
+var c=0
 function promptfun(){
 //static int
 
