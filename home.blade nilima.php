@@ -44,7 +44,7 @@ if(text=="yes")
 
  function promptfunclear()
  {
-    clearTimeout(myvar)
+    clearTimeout(myvar);
 
  }
  function soscall()
