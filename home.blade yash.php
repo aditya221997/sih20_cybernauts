@@ -117,4 +117,3 @@ if(text=="yes")
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3KWKcywoA4VZ8MQ1IGBhHE4A_k6cZKWc&callback=initMap">
     </script>
 
-@endsection
