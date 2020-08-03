@@ -18,7 +18,7 @@
         if(level<0.76)
       { alert("Low Battery!! Please Charge Your Phone!!"); }
 
-      });
+      })
     });
   </script>
 <script>
