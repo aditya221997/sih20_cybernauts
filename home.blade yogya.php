@@ -80,7 +80,7 @@ if(text=="yes")
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -34.397, lng: 10.644},
-          zoom: 18
+          zoom: 17
         });
         infoWindow = new google.maps.InfoWindow;
 
