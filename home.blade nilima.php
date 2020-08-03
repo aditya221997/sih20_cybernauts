@@ -115,6 +115,6 @@ if(text=="yes")
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3KWKcywoA4VZ8MQ1IGBhHE4A_k6cZKWc&callback=initMap">
-    </script
+</script>
 
 @endsection
