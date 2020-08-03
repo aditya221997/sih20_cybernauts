@@ -110,7 +110,7 @@ if(text=="yes")
         infoWindow.setContent(browserHasGeolocation ?
                               'Error: The Geolocation service failed.' :
                               'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map)
+        infoWindow.open(map);
       }
     </script>
     <script async defer
