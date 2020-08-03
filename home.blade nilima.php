@@ -47,7 +47,7 @@ if(text=="yes")
     clearTimeout(myvar);
 
  }
- function soscall(
+ function soscall()
  { 
     window.open("http://127.0.0.1:8000/sms/send");
  }
