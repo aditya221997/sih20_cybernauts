@@ -49,7 +49,7 @@ if(text=="yes")
  }
  function soscall()
  { 
-    window.open("http://127.0.0.1:8000/sms/send");
+    window.open('http://127.0.0.1:8000/sms/send');
  }
   
 </script>
