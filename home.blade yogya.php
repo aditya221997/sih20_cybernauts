@@ -42,7 +42,7 @@ if(text=="yes")
  }
 }
 
- function promptfunclear()
+ function promptfunclear
  {
     clearTimeout(myvar);
 
