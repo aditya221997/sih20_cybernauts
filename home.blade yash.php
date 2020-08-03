@@ -9,7 +9,7 @@
 
                    
                 </div>
-<h1> YOU ARE LOGGED IN!!</h1>
+<h1> YOU ARE LOGGED IN</h1>
 
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function(){
