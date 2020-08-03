@@ -15,7 +15,7 @@
     document.addEventListener("DOMContentLoaded", function(){
       navigator.getBattery().then(function(battery){
         var level = battery.level;
-        if(level<0.76)
+        if(level<0.27)
       { alert("Low Battery!! Please Charge Your Phone!!"); }
 
       });
